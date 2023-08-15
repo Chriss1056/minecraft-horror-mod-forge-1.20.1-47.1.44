@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 jobs:
-  setup:
+  build:
   
     runs-on: ubuntu-latest
     
@@ -25,22 +25,12 @@ jobs:
         
     - name: Verify Gradle Wrapper
       uses: gradle/wrapper-validation-action@v1
-
-  build:
-    needs: setup
-    runs-on: ubuntu-latest
-
-    steps:
+      
     - name: Make Gradle Runnable
       run: chmod +x ./gradlew
       
     - name: Build Gradle Project
       run: ./gradlew build
-
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-    
-    steps:
+      
     - name: Test Mod
       run: ./gradlew gameTestServer
