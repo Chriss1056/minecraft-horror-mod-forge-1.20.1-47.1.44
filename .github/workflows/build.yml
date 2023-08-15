@@ -5,11 +5,14 @@ on:
     branches: [ "master" ]
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  build:
-
+  setup:
+  
     runs-on: ubuntu-latest
-
+    
     steps:
     - name: Get Repository
       uses: actions/checkout@v3
@@ -19,7 +22,12 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        
+
+  build:
+    needs: setup
+    runs-on: ubuntu-latest
+
+    steps:
     - name: Verify Gradle Wrapper
       uses: gradle/wrapper-validation-action@v1
 
@@ -28,3 +36,11 @@ jobs:
       
     - name: Build Gradle Project
       run: ./gradlew build
+
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Test Mod
+      run: ./gradlew gameTestServer
