@@ -30,4 +30,4 @@ jobs:
       run: git update-index --chmod=+x gradlew
       
     - name: Build Gradle Project
-      run: ./gradlew gameTestServer
+      run: ./gradlew build
