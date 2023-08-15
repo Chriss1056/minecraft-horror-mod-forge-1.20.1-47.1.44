@@ -24,7 +24,7 @@ jobs:
       uses: gradle/wrapper-validation-action@v1
 
     - name: Make Gradle Runnable
-      run: git update-index --chmod=+x gradlew
+      run: chmod +x ./gradlew
       
     - name: Build Gradle Project
       run: ./gradlew build
