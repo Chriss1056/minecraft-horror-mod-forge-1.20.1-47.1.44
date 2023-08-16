@@ -24,6 +24,7 @@ public class modCreativeModeTabs
                         pOutput.accept(modItems.TEST_ITEM_2.get());
 
                         pOutput.accept(modBlocks.TEST_BLOCK_1.get());
+                        pOutput.accept(modBlocks.TEST_BLOCK_2.get());
                     })
                     .build());
 
