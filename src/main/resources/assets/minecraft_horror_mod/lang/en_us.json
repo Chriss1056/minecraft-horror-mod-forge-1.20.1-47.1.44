@@ -2,5 +2,8 @@
   "item.minecraft_horror_mod.test_item_1" : "Test Item 1",
   "item.minecraft_horror_mod.test_item_2" : "Test Item 2",
 
-  "creativeTab.test_tab" : "Test Tab"
+  "block.minecraft_horror_mod.test_block_1" : "Test Block 1",
+  "block.minecraft_horror_mod.test_block_2" : "Test Block 2",
+
+  "creativeTab.test_tab_1" : "Test Tab 1"
 }
