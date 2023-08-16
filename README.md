@@ -1,7 +1,7 @@
 # minecraft-horror-mod-forge-1.20.1-47.1.44
 This is a minecraft horror mod I'm creating for a friend of mine.
 
-## Version: ```Pre-Alpha 0.0.0.27```
+## Version: ```Pre-Alpha 0.0.0.28```
 
 ## Status: [![Build](https://github.com/Chriss1056/minecraft-horror-mod-forge-1.20.1-47.1.44/actions/workflows/build.yml/badge.svg)](https://github.com/Chriss1056/minecraft-horror-mod-forge-1.20.1-47.1.44/actions/workflows/build.yml)
 
@@ -20,4 +20,4 @@ This is a minecraft horror mod I'm creating for a friend of mine.
 ## Important
   - He will have a weakness that is decided on a specific set of parameters at random each time a new world is generated and the player must discover this weakness to eventually contain or even terminate him.
 
-## This is not the completed version of this Minecraft mod and won't work in it's current state!
+## This is not the completed version of this Minecraft mod and won't work in its current state!
