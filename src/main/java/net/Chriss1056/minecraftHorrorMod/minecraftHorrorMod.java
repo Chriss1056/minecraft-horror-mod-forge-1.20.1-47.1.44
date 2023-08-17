@@ -46,11 +46,6 @@ public class minecraftHorrorMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
-        {
-            event.accept(modItems.TEST_ITEM_1);
-            event.accept(modItems.TEST_ITEM_2);
-        }
     }
 
     @SubscribeEvent
