@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model" : "minecraft_horror_mod:block/test_ore_block_1"
+    }
+  }
+}
