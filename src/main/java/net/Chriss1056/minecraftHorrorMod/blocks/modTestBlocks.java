@@ -2,10 +2,12 @@ package net.Chriss1056.minecraftHorrorMod.blocks;
 
 import net.Chriss1056.minecraftHorrorMod.items.modTestItems;
 import net.Chriss1056.minecraftHorrorMod.minecraftHorrorMod;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +27,10 @@ public class modTestBlocks
 
     public static final RegistryObject<Block> TEST_BLOCK_2 = registerTestBlock("test_block_2",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.ANCIENT_DEBRIS)));
+
+    public static final RegistryObject<Block> TEST_ORE_BLOCK_1 = registerTestBlock("test_ore_block_1",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
 
     private static <T extends Block> RegistryObject<T> registerTestBlock(String name, Supplier<T> block)
     {

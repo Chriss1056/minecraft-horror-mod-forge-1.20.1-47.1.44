@@ -25,6 +25,8 @@ public class modTestCreativeModeTabs
 
                         pOutput.accept(modTestBlocks.TEST_BLOCK_1.get());
                         pOutput.accept(modTestBlocks.TEST_BLOCK_2.get());
+
+                        pOutput.accept(modTestBlocks.TEST_ORE_BLOCK_1.get());
                     })
                     .build());
 
@@ -37,6 +39,8 @@ public class modTestCreativeModeTabs
 
                         pOutput.accept(modTestBlocks.TEST_BLOCK_1.get());
                         pOutput.accept(modTestBlocks.TEST_BLOCK_2.get());
+
+                        pOutput.accept(modTestBlocks.TEST_ORE_BLOCK_1.get());
                     })
                     .build());
 
