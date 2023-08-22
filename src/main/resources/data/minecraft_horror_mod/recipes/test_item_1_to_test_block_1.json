@@ -1,0 +1,17 @@
+{
+  "type" : "minecraft:crafting_shaped",
+  "category" : "misc",
+  "pattern" : [
+    "###",
+    "###",
+    "###"
+  ],
+  "key" : {
+    "#" : {
+      "item" : "minecraft_horror_mod:test_item_1"
+    }
+  },
+  "result" : {
+    "item" : "minecraft_horror_mod:test_block_1"
+  }
+}

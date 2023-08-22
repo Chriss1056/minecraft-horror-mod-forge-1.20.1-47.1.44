@@ -1,0 +1,13 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "category" : "misc",
+  "ingredients" : [
+    {
+      "item" : "minecraft_horror_mod:test_block_2"
+    }
+  ],
+  "result" : {
+    "item" : "minecraft_horror_mod:test_item_2",
+    "count" : 9
+  }
+}
