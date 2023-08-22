@@ -1,7 +1,7 @@
 # minecraft-horror-mod-forge-1.20.1-47.1.44
 This is a minecraft horror mod I'm creating for a friend of mine.
 
-## Version: ```Pre-Alpha 0.0.0.30```
+## Version: ```Pre-Alpha 0.0.0.31```
 
 ## Status: [![Build](https://github.com/Chriss1056/minecraft-horror-mod-forge-1.20.1-47.1.44/actions/workflows/build.yml/badge.svg)](https://github.com/Chriss1056/minecraft-horror-mod-forge-1.20.1-47.1.44/actions/workflows/build.yml)
 
