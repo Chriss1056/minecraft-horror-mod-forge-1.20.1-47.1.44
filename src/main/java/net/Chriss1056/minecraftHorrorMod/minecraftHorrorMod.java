@@ -1,9 +1,9 @@
 package net.Chriss1056.minecraftHorrorMod;
 
 import com.mojang.logging.LogUtils;
-import net.Chriss1056.minecraftHorrorMod.blocks.modBlocks;
-import net.Chriss1056.minecraftHorrorMod.menus.modCreativeModeTabs;
-import net.Chriss1056.minecraftHorrorMod.items.modItems;
+import net.Chriss1056.minecraftHorrorMod.blocks.modTestBlocks;
+import net.Chriss1056.minecraftHorrorMod.menus.modTestCreativeModeTabs;
+import net.Chriss1056.minecraftHorrorMod.items.modTestItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -27,10 +27,10 @@ public class minecraftHorrorMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        modCreativeModeTabs.register(modEventBus);
+        modTestCreativeModeTabs.register(modEventBus);
 
-        modItems.register(modEventBus);
-        modBlocks.register(modEventBus);
+        modTestItems.register(modEventBus);
+        modTestBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

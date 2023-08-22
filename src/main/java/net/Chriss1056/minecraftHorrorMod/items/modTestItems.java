@@ -7,19 +7,19 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class modItems
+public class modTestItems
 {
-    public static final DeferredRegister<Item> ITEMS =
+    public static final DeferredRegister<Item> TEST_ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, minecraftHorrorMod.MOD_ID);
 
-    public static final RegistryObject<Item> TEST_ITEM_1 = ITEMS.register("test_item_1",
+    public static final RegistryObject<Item> TEST_ITEM_1 = TEST_ITEMS.register("test_item_1",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> TEST_ITEM_2 = ITEMS.register("test_item_2",
+    public static final RegistryObject<Item> TEST_ITEM_2 = TEST_ITEMS.register("test_item_2",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus)
     {
-        ITEMS.register(eventBus);
+        TEST_ITEMS.register(eventBus);
     }
 }
