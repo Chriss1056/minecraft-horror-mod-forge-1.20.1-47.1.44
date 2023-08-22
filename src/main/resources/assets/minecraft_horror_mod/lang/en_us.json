@@ -5,6 +5,8 @@
   "block.minecraft_horror_mod.test_block_1" : "Test Block 1",
   "block.minecraft_horror_mod.test_block_2" : "Test Block 2",
 
+  "block.minecraft_horror_mod.test_ore_block_1" : "Test Ore 1",
+
   "creativeTab.test_tab_1" : "Test Tab 1",
   "creativeTab.test_tab_2" : "Test Tab 2"
 }
