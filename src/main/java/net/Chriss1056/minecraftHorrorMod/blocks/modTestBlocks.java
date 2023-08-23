@@ -1,5 +1,6 @@
 package net.Chriss1056.minecraftHorrorMod.blocks;
 
+import net.Chriss1056.minecraftHorrorMod.blocks.custom_blocks.customTestBlock;
 import net.Chriss1056.minecraftHorrorMod.items.modTestItems;
 import net.Chriss1056.minecraftHorrorMod.minecraftHorrorMod;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -31,6 +32,9 @@ public class modTestBlocks
     public static final RegistryObject<Block> TEST_ORE_BLOCK_1 = registerTestBlock("test_ore_block_1",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+
+    public static final RegistryObject<Block> CUSTOM_TEST_BLOCK_1 = registerTestBlock("custom_test_block_1",
+            () -> new customTestBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerTestBlock(String name, Supplier<T> block)
     {
