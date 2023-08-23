@@ -1,5 +1,6 @@
 package net.Chriss1056.minecraftHorrorMod.items;
 
+import net.Chriss1056.minecraftHorrorMod.items.custom_items.customTestFoodItem;
 import net.Chriss1056.minecraftHorrorMod.items.custom_items.customTestItem;
 import net.Chriss1056.minecraftHorrorMod.minecraftHorrorMod;
 import net.minecraft.world.item.Item;
@@ -21,6 +22,9 @@ public class modTestItems
 
     public static final RegistryObject<Item> CUSTOM_TEST_ITEM_1 = TEST_ITEMS.register("custom_test_item_1",
             () -> new customTestItem(new Item.Properties().durability(100)));
+
+    public static final RegistryObject<Item> CUSTOM_TEST_FOOD_ITEM_1 = TEST_ITEMS.register("custom_test_food_item_1",
+            () -> new Item(new Item.Properties().food(customTestFoodItem.CUSTOM_TEST_FOOD_ITEM_1)));
 
     public static void register(IEventBus eventBus)
     {

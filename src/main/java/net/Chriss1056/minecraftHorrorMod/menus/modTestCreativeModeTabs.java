@@ -25,6 +25,8 @@ public class modTestCreativeModeTabs
 
                         pOutput.accept(modTestItems.CUSTOM_TEST_ITEM_1.get());
 
+                        pOutput.accept(modTestItems.CUSTOM_TEST_FOOD_ITEM_1.get());
+
                         pOutput.accept(modTestBlocks.TEST_BLOCK_1.get());
                         pOutput.accept(modTestBlocks.TEST_BLOCK_2.get());
 
@@ -42,6 +44,8 @@ public class modTestCreativeModeTabs
                         pOutput.accept(modTestItems.TEST_ITEM_2.get());
 
                         pOutput.accept(modTestItems.CUSTOM_TEST_ITEM_1.get());
+
+                        pOutput.accept(modTestItems.CUSTOM_TEST_FOOD_ITEM_1.get());
 
                         pOutput.accept(modTestBlocks.TEST_BLOCK_1.get());
                         pOutput.accept(modTestBlocks.TEST_BLOCK_2.get());
