@@ -4,6 +4,8 @@
 
   "item.minecraft_horror_mod.custom_test_item_1" : "Benutzerdefinierter Testgegenstand 1",
 
+  "item.minecraft_horror_mod.custom_test_food_item_1" : "Benutzerdefiniertes Testlebensmittel 1",
+
   "block.minecraft_horror_mod.test_block_1" : "Testblock 1",
   "block.minecraft_horror_mod.test_block_2" : "Testblock 2",
 
