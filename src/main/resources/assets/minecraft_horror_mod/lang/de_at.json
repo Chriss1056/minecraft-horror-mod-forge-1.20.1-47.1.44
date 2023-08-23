@@ -2,6 +2,8 @@
   "item.minecraft_horror_mod.test_item_1" : "Testgegenstand 1",
   "item.minecraft_horror_mod.test_item_2" : "Testgegenstand 2",
 
+  "item.minecraft_horror_mod.custom_test_item_1" : "Benutzerdefinierter Testgegenstand 1",
+
   "block.minecraft_horror_mod.test_block_1" : "Testblock 1",
   "block.minecraft_horror_mod.test_block_2" : "Testblock 2",
 
