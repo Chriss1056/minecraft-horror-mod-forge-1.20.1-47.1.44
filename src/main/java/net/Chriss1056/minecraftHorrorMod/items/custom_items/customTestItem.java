@@ -11,6 +11,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 
+import java.util.Objects;
+
 public class customTestItem extends Item
 {
     public customTestItem(Properties pProperties)
@@ -26,6 +28,8 @@ public class customTestItem extends Item
             BlockPos positionClicked = pContext.getClickedPos();
             Player player = pContext.getPlayer();
             boolean foundBlock = false;
+
+            assert player != null;
 
             for (int i = 0; i <= positionClicked.getY() + 64; i++)
             {
@@ -46,7 +50,7 @@ public class customTestItem extends Item
 
         }
 
-        pContext.getItemInHand().hurtAndBreak(1, pContext.getPlayer(),
+        pContext.getItemInHand().hurtAndBreak(1, Objects.requireNonNull(pContext.getPlayer()),
                 player -> player.broadcastBreakEvent(player.getUsedItemHand()));
 
         return InteractionResult.SUCCESS;
