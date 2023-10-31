@@ -3,6 +3,7 @@
   "item.minecraft_horror_mod.test_item_2" : "Testgegenstand 2",
 
   "item.minecraft_horror_mod.custom_test_item_1" : "Benutzerdefinierter Testgegenstand 1",
+  "item.minecraft_horror_mod.custom_test_item.tooltip": "Findet Wertvolle Gegenstände",
 
   "item.minecraft_horror_mod.custom_test_food_item_1" : "Benutzerdefiniertes Testlebensmittel 1",
 
@@ -12,6 +13,7 @@
   "block.minecraft_horror_mod.test_block_2" : "Testblock 2",
 
   "block.minecraft_horror_mod.custom_test_block_1" : "Benutzerdefinierter Block 1",
+  "block.minecraft_horror_mod.custom_test_block.tooltip": "Macht Geräusche",
 
   "block.minecraft_horror_mod.test_ore_block_1" : "Testerz 1",
 
