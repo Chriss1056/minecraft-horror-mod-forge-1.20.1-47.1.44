@@ -1,5 +1,6 @@
 package net.Chriss1056.minecraftHorrorMod.items.custom_items;
 
+import net.Chriss1056.minecraftHorrorMod.utility.customTags.customTestTag;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -11,7 +12,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -76,6 +76,6 @@ public class customTestItem extends Item
 
     private boolean isValuableBlock(BlockState state)
     {
-        return state.is(Blocks.IRON_ORE);
+        return state.is(customTestTag.Blocks.CUSTOM_TEST_BLOCK_TAG);
     }
 }
